@@ -1,0 +1,7 @@
+function slackAlert() {
+  const token = ;
+  const slackApp = SlackApp.create(token);
+  const channelId = ;
+  const message = '<@> Slack通知テストです';
+  slackApp.postMessage(channelId, message);
+}
